@@ -1,6 +1,6 @@
 var express = require('express'),
     path = require("path");
-var app = express.createServer();
+var app = express();
 
 app.get('/timeout', function(req, res){
   setTimeout(function() {
